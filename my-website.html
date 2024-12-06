@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Tailwind CSS Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white py-4">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">My Website</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-blue-50 py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold mb-4">Welcome to My Website</h2>
+      <p class="text-lg text-gray-600 mb-6">A responsive page styled with Tailwind CSS</p>
+      <button class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">
+        Get Started
+      </button>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <section id="about" class="py-12">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-8">Our Features</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded shadow p-6">
+          <h4 class="text-xl font-bold mb-2">Feature One</h4>
+          <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="bg-white rounded shadow p-6">
+          <h4 class="text-xl font-bold mb-2">Feature Two</h4>
+          <p class="text-gray-600">Suspendisse potenti. Vivamus luctus tempor quam.</p>
+        </div>
+        <div class="bg-white rounded shadow p-6">
+          <h4 class="text-xl font-bold mb-2">Feature Three</h4>
+          <p class="text-gray-600">Curabitur auctor arcu sed lectus placerat, vitae tincidunt.</p>
+        </div>
+        <div class="bg-white rounded shadow p-6">
+          <h4 class="text-xl font-bold mb-2">Feature Four</h4>
+          <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="bg-white rounded shadow p-6">
+          <h4 class="text-xl font-bold mb-2">Feature Five</h4>
+          <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="bg-white rounded shadow p-6">
+          <h4 class="text-xl font-bold mb-2">Feature Six</h4>
+          <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2024 My Website. All Rights Reserved.</p>
+      <p>Contact us at <a href="mailto:info@mywebsite.com" class="text-blue-400 hover:underline">info@mywebsite.com</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
