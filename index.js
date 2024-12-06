@@ -5,7 +5,6 @@ const path = require('path');
 
 const myServer = http.createServer((req , res)=>{
   const myUrl = url.parse(req.url , true)
-  console.log(myUrl)
   switch (myUrl.pathname) {
     case '/':
       res.statusCode = 200;
